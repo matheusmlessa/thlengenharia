@@ -1,0 +1,127 @@
+h1, h2, h3, h4, h5, h6
+{
+	font-family: 'Roboto Slab', serif;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+}
+
+@media (min-width: 768px) {
+	.navbar {
+    	border-radius: 0px;
+	}
+}
+
+
+/* NAV BAR */
+
+
+
+/* SECTION 01 */
+.banner
+{
+	background:url(../images/bg02.jpg) no-repeat fixed;
+	-o-background-size: cover; 
+	-moz-background-size: cover; 
+	-webkit-background-size:cover; 
+	background-size: cover;
+	margin-top: -20px;
+	padding:55px 0px 55px 0px;
+	background-color: #3d454a;
+	cursor: default;
+	min-height:600px;
+}
+.banner-text
+{
+	width: 70%;
+	margin: 0 auto;
+	padding:80px 0px;
+}
+.banner-text h3
+{
+	color: #fff;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 1.5;
+}
+.banner-text h2 span
+{
+	font-weight: 400;
+}
+p.under-tagline
+{
+	background-color: rgba(45, 45, 45, 0.8);
+	padding: 5px 20px;
+	color: #FFF;
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 300;
+	text-align: justify;
+	border-left: 3px solid #fafafa
+}
+button.mainbutton
+{
+	background: none repeat scroll 0% 0% transparent;
+	border: 1px solid #FFF;
+	padding: 10px 25px;
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: "Roboto Slab",serif;
+	font-weight: 300;
+	transition: all 0.3s ease 0s;
+	border-radius: 3px;
+	margin-top: 25px;
+	cursor: pointer;
+}
+button.mainbutton:hover
+{
+	background: #fff;
+	color: #888;
+}
+
+/* SECTION 02 - Company */
+.company {
+	background-color: #fff;
+	padding: 6em 0px 8em 0px;
+}
+.section-head
+{
+	padding: 20px 0px 40px 20px;
+}
+.section-head h3
+{
+	color: #000;
+	font-size: 30px;
+	font-weight: 300;
+}
+.section-head h3 span
+{
+	font-weight: 400;
+}
+.section-head p
+{
+	color: #737373;
+	font-size: 14px;
+	width: 60%;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 20px;
+	margin-top: 10px;
+}
+
+/* SECTION 03 - Services */
+.services {
+	background-color: #ececec;
+	padding: 6em 0px 8em 0px;
+}
+
+/* SECTION 04 - Portfolio */
+.portfolio {
+	background-color: #fff;
+	padding: 6em 0px 8em 0px;
+}
+
+#portfolio-line {
+	margin-bottom: 2em;
+}
