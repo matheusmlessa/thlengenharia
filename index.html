@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
-    <link rel="shortcut icon" href="/img/favicon.ico">
+    <link rel="shortcut icon" href="images/favicon-thl.ico">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,6 +20,9 @@
     <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,100,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300,200' rel='stylesheet' type='text/css'>
 
+    <!-- Icons Awesome -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -28,6 +31,41 @@
     <![endif]-->
   </head>
   <body>
+
+    <!--TOP BAR INFOS-->
+    <div class="top-bar">
+      <div class="container" id="line-top-bar">
+        <div class="row">
+
+          <div class="col-md-6">
+              <ul class="list-inline">
+                  <li>
+                    <i class="fa fa-phone" aria-hidden="true"></i> (27) 3338-3699
+                  <li>
+                    <i class="fa fa-envelope" aria-hidden="true"></i> thlengenharia@gmail.com</a>
+                  </li>
+              </ul>
+          </div>
+
+          <div class="col-md-6">
+              <ul class="top-social list-inline text-right">
+                  <li>
+                    <a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                  </li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- MENU RESPOSIVE -->
     <nav class="navbar navbar-default">
@@ -41,17 +79,18 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="#">
-            <img class="img-responsive portfolio-item" src="images/logo.png" alt="">
+            <img class="img-responsive portfolio-item" src="images/logo.png" alt="Logo THL Engenharia">
           </a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Home</a></li>
             <li><a href="#company">Empresa</a></li>
             <li><a href="#service">Atividades</a></li>
-            <li><a href="#">Portfólio</a></li>
-            <li><a href="#">Contato</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
+            <li><a href="#contact">Contato</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -61,9 +100,9 @@
     <section class="banner">
       <div class="container">
           <div class="banner-text">
-              <h3 class="tagline">
-                Centenas de obras realizadas <span>em todo o país.</span>
-              </h3>
+              <h2 class="tagline">
+                Obras realizadas <span>em todo o país.</span>
+              </h2>
               <p class="under-tagline">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis faucibus leo. Ut ac arcu a diam mollis semper. In nec blandit nisl, nec cursus lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis faucibus leo. Ut ac arcu a diam mollis semper. In nec blandit nisl, nec cursus lectus.
               </p>
@@ -90,7 +129,7 @@
           </p>
         </div>
         <div class="col-sm-6">
-          <img src="https://placehold.it/500x300">
+          <img class="img-responsive" src="https://placehold.it/500x300">
         </div>
       </div>
     </section>
@@ -108,105 +147,214 @@
         <div class="col-sm-6 services-list">
           <ul>
             <li>
-                <div class="service-icon icon1"></div>
-                <h4>Professional Works</h4>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
-              </li>
-              <li>
-                <div class="service-icon icon2"></div>
-                <h4>Highly Customizable</h4>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
-              </li>
-              <li>
-                <div class="service-icon icon3"></div>
-                <h4>Quick Response</h4>
+              <div class="service-icon icon1"></div>
+              <h4><strong>
+                <i class="fa fa-caret-right" aria-hidden="true"></i> Construção de Galpões
+              </strong></h4>
               <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
-              </li>
+            </li>
+            <li>
+              <div class="service-icon icon2"></div>
+              <h4><strong>
+                <i class="fa fa-caret-right" aria-hidden="true"></i> Elétrica
+              </strong></h4>
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+            </li>
+            <li>
+              <div class="service-icon icon3"></div>
+              <h4><strong>
+                <i class="fa fa-caret-right" aria-hidden="true"></i> Pinturas
+              </strong></h4>
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+            </li>
+            <li>
+              <div class="service-icon icon4"></div>
+              <h4><strong>
+                <i class="fa fa-caret-right" aria-hidden="true"></i> Reformas
+              </strong></h4>
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+            </li>
           </ul>
         </div>
 
         <div class="col-sm-6 services-list">
           <ul>
             <li>
-                <div class="service-icon icon1"></div>
-                <h4>Professional Works</h4>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
-              </li>
-              <li>
-                <div class="service-icon icon2"></div>
-                <h4>Highly Customizable</h4>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
-              </li>
-              <li>
-                <div class="service-icon icon3"></div>
-                <h4>Quick Response</h4>
+              <div class="service-icon icon1"></div>
+              <h4><strong>
+                <i class="fa fa-caret-right" aria-hidden="true"></i> Hidráulica
+              </strong></h4>
               <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
-              </li>
+            </li>
+            <li>
+              <div class="service-icon icon2"></div>
+              <h4><strong>
+                <i class="fa fa-caret-right" aria-hidden="true"></i> Abrigos
+              </strong></h4>
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+            </li>
+            <li>
+              <div class="service-icon icon3"></div>
+              <h4><strong>
+                <i class="fa fa-caret-right" aria-hidden="true"></i> Balanças
+              </strong></h4>
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+            </li>
+            <li>
+              <div class="service-icon icon4"></div>
+              <h4><strong>
+                <i class="fa fa-caret-right" aria-hidden="true"></i> Serralheria
+              </strong></h4>
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+            </li>
           </ul>
         </div>
+
+        
       </div>
     </section>
 
     <!-- SECTION 04 -->
     <section class="portfolio" id="portfolio">
       <div class="container">
+
         <div class="section-head">
           <h3><span>Portfólio</span></h3>
         </div>
-        <div class="row" id="portfolio-line">
-          <div class="col-sm-3 col-xs-6">
-              <a href="#" class="thumbnail">
-                  <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-              </a>
-          </div>
 
-          <div class="col-sm-3 col-xs-6">
-              <a href="#" class="thumbnail">
-                  <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-              </a>
+        <div class="row">
+          <div class="col-md-3 portfolio-item">
+            <a href="ibiracu.html" class="thumbnail">
+              <img class="img-responsive" src="images/ibiracu.jpg" alt="">
+              <div class="caption">
+                <p class="text-center">Abrigos de Ibiraçu</p>
+              </div>
+            </a>
           </div>
-
-          <div class="col-sm-3 col-xs-6">
-              <a href="#" class="thumbnail">
-                  <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-              </a>
+          <div class="col-md-3 portfolio-item">
+            <a href="#" class="thumbnail">
+              <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+              <div class="caption">
+                <p class="text-center">Elétrica e Iluminação</p>
+              </div>
+            </a>
           </div>
-
-          <div class="col-sm-3 col-xs-6">
-              <a href="#" class="thumbnail">
-                  <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-              </a>
+          <div class="col-md-3 portfolio-item">
+            <a href="#" class="thumbnail">
+              <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+              <div class="caption">
+                <p class="text-center">Reforma de Flutuante</p>
+              </div>
+            </a>
           </div>
-        </div>
-
-        <div class="row" id="portfolio-line">
-          <div class="col-sm-3 col-xs-6">
-              <a href="#" class="thumbnail">
-                  <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-              </a>
-          </div>
-
-          <div class="col-sm-3 col-xs-6">
-              <a href="#" class="thumbnail">
-                  <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-              </a>
-          </div>
-
-          <div class="col-sm-3 col-xs-6">
-              <a href="#" class="thumbnail">
-                  <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-              </a>
-          </div>
-
-          <div class="col-sm-3 col-xs-6">
-              <a href="#" class="thumbnail">
-                  <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-              </a>
+          <div class="col-md-3 portfolio-item">
+            <a href="#" class="thumbnail">
+              <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+              <div class="caption">
+                <p class="text-center">Defensas</p>
+              </div>
+            </a>
           </div>
         </div>
-
+        <!-- /.row -->
+        <div class="row">
+          <div class="col-md-3 portfolio-item">
+            <a href="#" class="thumbnail">
+              <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+              <div class="caption">
+                <p class="text-center">Abrigos</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-3 portfolio-item">
+            <a href="#" class="thumbnail">
+              <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+              <div class="caption">
+                <p class="text-center">Envelopamentos (Gás)</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-3 portfolio-item">
+            <a href="#" class="thumbnail">
+              <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+              <div class="caption">
+                <p class="text-center">Calçadas e Ciclovias</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-3 portfolio-item">
+            <a href="#" class="thumbnail">
+              <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+              <div class="caption">
+                <p class="text-center">Serralheria</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- /.row -->
       </div>
     </section>
+
+    <!-- SECTION 05 -->
+    <section class="contacts" id="contact">
+      <div class="container">
+        <div class="section-head">
+          <h3><span>Contato</span></h3>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-5">
+            <p class="text-contact">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis faucibus leo. Ut ac arcu a diam mollis semper. In nec blandit nisl, nec cursus lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis faucibus leo. Ut ac arcu a diam mollis.
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-lg-offset-1">
+            <p class="text-contact">
+              <strong>Endereço:</strong><br>
+              Rua Paraná, 371<br>
+              Bairro Chácara Parreiral<br>
+              29164-307 - Serra/ES
+            </p>
+          </div>
+
+          <div class="col-lg-3">
+            <p class="text-contact">
+              <strong>Fale Conosco:</strong><br>
+              thlengenharia@gmail.com<br>
+              (27) 3338-3699 | 3322-9052<br>
+              (27) 99942-8836
+            </p>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer" id="links">
+      <div class="container">
+        <h1 class="title-footer text-center">THL</h1>
+        <p class="text-center">Engenharia</p>
+          
+        <!-- START FOOTER NAVIGATION -->
+        <ul class="footer-nav text-center">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#company">Empresa</a></li>
+          <li><a href="#service">Atividades</a></li>
+          <li><a href="#portfolio">Portfólio</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+        <!-- END FOOTER NAVIGATION -->
+
+        <!-- START COPYRIGHTS -->
+        <div class="footer-copyrights text-center">
+          <span class="copyrights-date">© THL Engenharia 2016.</span>
+          <span class="copyrights-text">All Rights Reserved.</span>
+        </div>
+        <!-- END COPYRIGHTS -->
+      </div>
+    </footer>
 
     
 
