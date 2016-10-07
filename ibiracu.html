@@ -29,6 +29,10 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <!-- LightBox -->
+    <link href="css/lightbox.min.css" rel="stylesheet">
+
   </head>
   <body>
 
@@ -116,7 +120,9 @@
           </div>
 
           <div class="col-lg-6">
-            <img src="images/ibiracu.jpg" alt="..." class="img-thumbnail">
+            <a href="images/ibiracu.jpg" data-lightbox="roadtrip">
+              <img src="images/ibiracu.jpg" alt="..." class="img-thumbnail">
+            </a>
           </div>
         </div>
         <hr class="line">
@@ -127,26 +133,38 @@
     <section class="fotos-obra">
       <div class="container">
         <div class="row">
-          <div class="col-lg-4 portfolio-item">
-            <img src="images/ibiracu1.jpg" alt="..." class="img-thumbnail">
-          </div>
-          <div class="col-lg-4 portfolio-item">
-            <img src="images/ibiracu2.jpg" alt="..." class="img-thumbnail">
-          </div>
-          <div class="col-lg-4 portfolio-item">
-            <img src="images/ibiracu3.jpg" alt="..." class="img-thumbnail">
-          </div>  
+          <a href="images/ibiracu1.jpg" data-lightbox="roadtrip">
+            <div class="col-lg-4 portfolio-item">
+              <img src="images/ibiracu1.jpg" alt="..." class="img-thumbnail">
+            </div>
+          </a>
+          <a href="images/ibiracu2.jpg" data-lightbox="roadtrip">
+            <div class="col-lg-4 portfolio-item">
+              <img src="images/ibiracu2.jpg" alt="..." class="img-thumbnail">
+            </div>
+          </a>
+          <a href="images/ibiracu3.jpg" data-lightbox="roadtrip">
+            <div class="col-lg-4 portfolio-item">
+              <img src="images/ibiracu3.jpg" alt="..." class="img-thumbnail">
+            </div>
+          </a>
         </div>
         <div class="row">
-          <div class="col-lg-4 portfolio-item">
-            <img src="images/ibiracu4.jpg" alt="..." class="img-thumbnail">
-          </div>
-          <div class="col-lg-4 portfolio-item">
-            <img src="images/ibiracu5.jpg" alt="..." class="img-thumbnail">
-          </div>
-          <div class="col-lg-4 portfolio-item">
-            <img src="images/ibiracu6.jpg" alt="..." class="img-thumbnail">
-          </div>  
+           <a href="images/ibiracu4.jpg" data-lightbox="roadtrip">
+            <div class="col-lg-4 portfolio-item">
+              <img src="images/ibiracu4.jpg" alt="..." class="img-thumbnail">
+            </div>
+          </a>
+          <a href="images/ibiracu5.jpg" data-lightbox="roadtrip">
+            <div class="col-lg-4 portfolio-item">
+              <img src="images/ibiracu5.jpg" alt="..." class="img-thumbnail">
+            </div>
+          </a>
+          <a href="images/ibiracu6.jpg" data-lightbox="roadtrip">
+            <div class="col-lg-4 portfolio-item">
+              <img src="images/ibiracu6.jpg" alt="..." class="img-thumbnail">
+            </div>
+          </a>
         </div>
       </div>
     </section>
@@ -184,5 +202,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <!-- LightBox -->
+    <script src="js/lightbox.min.js"></script>
   </body>
 </html>
