@@ -20,6 +20,9 @@ p {
 	font-family: 'Lato', sans-serif;
 	min-height: 95px;
 }
+.navbar-header {
+	min-height: 95px;
+}
 .navbar-default {
     background-color: #ffffff;
     border-color: #e7e7e7;
@@ -36,8 +39,17 @@ p {
     	padding-bottom: 15px;
     }
 }
+.navbar-toggle {
+	margin-top: 30.5px;
+	margin-bottom: 30.5px;
+}
 
 /* SECTION 01 */
+@media (max-width: 680px) {
+	.top-bar {
+    	display: none;
+    }
+}
 .top-bar{
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
