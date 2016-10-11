@@ -180,7 +180,7 @@ button.mainbutton:hover
 /* FOOTER */
 .footer {
     background-color: #181b20;
-    padding: 3em 0px 8em 0px;
+    padding: 3em 0px 6em 0px;
     color: #FFF;
 }
 .footer-nav > li {
@@ -190,7 +190,7 @@ button.mainbutton:hover
 #links h1{
 	margin-bottom: 0px;
 }
-#links p{
+.subname{
 	text-transform: uppercase;
 	margin-bottom: 30px;
 }
@@ -206,6 +206,14 @@ button.mainbutton:hover
 .footer-nav {
 	font-family: 'Lato', sans-serif;
 	margin-bottom: 50px;
+}
+
+.assinatura {
+	font-size: 12px;
+}
+
+.assinatura a{
+	text-transform: capitalize !important;
 }
 
 
