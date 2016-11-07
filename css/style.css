@@ -63,7 +63,7 @@ p {
 }
 .banner
 {
-	background:url(../images/bg02.jpg) no-repeat fixed;
+	background:url(../images/bg02-min.jpg) no-repeat fixed;
 	-o-background-size: cover; 
 	-moz-background-size: cover; 
 	-webkit-background-size:cover; 
@@ -221,15 +221,16 @@ button.mainbutton:hover
 }
 .footer-nav {
 	font-family: 'Lato', sans-serif;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 }
-
 .assinatura {
 	font-size: 12px;
 }
-
 .assinatura a{
 	text-transform: capitalize !important;
+}
+.bottom-social{
+	margin-bottom: 25px;
 }
 
 
