@@ -242,7 +242,7 @@ button.mainbutton:hover
 	background-color: #ececec;
 	padding: 5em 0px 1em 0px;
 }
-.text-obra{
+.text-obra {
 	padding: 5px;
 	font-size: 1.2em !important;
 	width: 90% !important;
@@ -253,10 +253,14 @@ button.mainbutton:hover
 	list-style: none;
 	color: #000;
 }
-.obra hr{
+.obra hr {
 	border-top: 1px dashed #dedede;
 }
-.fotos-obra{
+.fotos-obra {
 	background-color: #ececec;
 	padding: 0em 0px 6em 0px;
+}
+.sub-header-serralheria {
+	color: #000;
+	padding-bottom: 1em;
 }
